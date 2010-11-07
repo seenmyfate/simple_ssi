@@ -1,0 +1,3 @@
+class SsiController < ApplicationController
+
+end

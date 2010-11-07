@@ -1,0 +1,5 @@
+Description:
+    Creates an SsiController in your application
+
+Example:
+    rails generate nginx_ssi
