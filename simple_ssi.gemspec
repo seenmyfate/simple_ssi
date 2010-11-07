@@ -16,6 +16,24 @@ Gem::Specification.new do |s|
     "LICENSE",
      "README.md"
   ]
+  s.files = [
+    ".gitignore",
+     "Gemfile",
+     "Gemfile.lock",
+     "LICENSE",
+     "README.md",
+     "Rakefile",
+     "VERSION",
+     "app/controllers/ssi_controller.rb",
+     "app/helpers/ssi_helper.rb",
+     "config/routes.rb",
+     "lib/generators/simple_ssi/USAGE",
+     "lib/generators/simple_ssi/simple_ssi_generator.rb",
+     "lib/generators/simple_ssi/templates/ssi_controller.rb",
+     "lib/simple_ssi.rb",
+     "lib/simple_ssi/engine.rb",
+     "simple_ssi.gemspec"
+  ]
   s.homepage = %q{http://github.com/seenmyfate/simple_ssi}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
