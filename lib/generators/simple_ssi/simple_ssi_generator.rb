@@ -3,7 +3,7 @@ class SimpleSsiGenerator < Rails::Generators::Base
   
   def ssi
     copy_file "ssi_controller.rb", 'app/controllers/ssi_controller.rb'
-    directory "ssi", "app/controllers/ssi"
-    directory "ssi", "app/views/ssi"
+    empty_directory "app/controllers/ssi"
+    empty_directory "app/views/ssi"
   end
 end
