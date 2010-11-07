@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{simple_ssi}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["seenmyfate"]
@@ -28,7 +28,6 @@ Gem::Specification.new do |s|
      "config/routes.rb",
      "lib/generators/simple_ssi/USAGE",
      "lib/generators/simple_ssi/simple_ssi_generator.rb",
-     "lib/generators/simple_ssi/templates/ssi/.gitkeep",
      "lib/generators/simple_ssi/templates/ssi_controller.rb",
      "lib/simple_ssi.rb",
      "lib/simple_ssi/engine.rb",
