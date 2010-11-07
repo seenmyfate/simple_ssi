@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    nginx_ssi (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rspec (1.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nginx_ssi!
+  rspec (= 1.3)
